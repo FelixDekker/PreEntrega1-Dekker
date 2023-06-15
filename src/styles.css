@@ -1,0 +1,57 @@
+.navbar {
+    list-style: none;
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  .brand {
+    font-weight: bold;
+    margin-right: 40px;
+  }
+  
+  .item {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .cart-item {
+    margin-left: auto;
+  }
+  
+  .cart-widget {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icono {
+    font-size: 20px;
+  }
+  
+  .cart-notificacion {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    color: #fff;
+  }
+  
+  .item-list-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+  }
+  
+  .texto-lista {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
